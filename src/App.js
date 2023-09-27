@@ -7,10 +7,18 @@ import { Display } from './components/Display';
 
 function App() {
   return (
-    <div className="App">
-      <Break />
-      <Session />
-      <Display />
+    <div className="App container pt-5">
+      <div className='row mt-5'>
+        <div className='col'>
+          <Break />
+        </div>
+        <div className='col'>
+          <Session />
+        </div>
+      </div>
+      <div className='row mt-5'>
+        <Display />
+      </div>
     </div>
   );
 }

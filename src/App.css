@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #1f1f32;
+}
+
+h2, p {
+    color: white;
+}
