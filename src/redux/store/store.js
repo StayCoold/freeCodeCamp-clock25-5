@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { clockSlice } from "../reducers/clockSlice";
+import clockReducer from "../reducers/clockSlice";
 
 export const store = configureStore({
     reducer:{
-        clock: clockSlice,
+        clock: clockReducer,
     }
 });
